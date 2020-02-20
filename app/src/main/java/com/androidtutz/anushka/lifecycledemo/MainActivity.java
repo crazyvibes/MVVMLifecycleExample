@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+
         //connect current view with view model class.
         mainActivityViewModel=ViewModelProviders.of(this).get(MainActivityViewModel.class);
 
